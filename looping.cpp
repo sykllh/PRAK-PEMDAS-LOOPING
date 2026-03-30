@@ -34,4 +34,7 @@ int main(){
         cout<<"Bilangan acak = "<<x endl;
         x = rand()%10;
     }while(x<=5);
+
+    cout<<"Bilangan acak do-while yang terakhir ="<<x endl;
+    cout<<endl;
 }
