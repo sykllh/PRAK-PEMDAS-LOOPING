@@ -19,5 +19,21 @@ void input() {
 
 //prosedur untuk pengecekan kondisi
 void pilihanJurusan() {
-    
+    switch (kodeJurusan) {
+        case 1:
+            namaJurusan = "Teknologi Informasi";
+            statusKouta = "Tersedia (15 Kursi)";
+            break;
+        case 2:
+            namaJurusan = "Teknik Elektro";
+            statusKouta = "Kouta Penuh!";
+            break;
+        case 3:
+            namaJurusan = "Sistem Informasi";
+            statusKouta = "Tersedia (5 Kursi)";
+            break;
+        default:
+        namaJurusan = "Tidak Diketahui";
+        statusKouta = "Error: Kode Tidak Valid";
+    }
 }
